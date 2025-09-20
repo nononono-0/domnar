@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+ol{
+    margin-left: 20px;
+}
+body {
+    /* box-sizing: border-box; */
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    width: 900px;
+
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 24px;
+    padding: 10px;
+}
+h4{
+    font-size: 18px;
+}
+
+.blockquote {
+    padding: 8px;
+    background-color: #eaecf0;
+    border: 1px solid #72777d;
+    border-radius: 5px;
+}
+.bold {
+    font-weight: bold;
+}
+.domm {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tusicha {
+    margin-bottom: 10px;
+}
+.dvetusichi {
+    margin-bottom: 10px;
+}
+.bold2 {
+    font-weight: bold;
+    text-align: center;
+}
+.spisok {
+    padding-top: 8px;
+    padding-left: 30px;
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    border-radius: 5px;
+    margin-right: 500px;
+    width: 176px;
+    position: fixed;
+    left: 0;
+    margin: 0;
+    height: 400px;
+    overflow: scroll;
+}
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+p {
+    margin: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.trispisok {
+    padding-left: 40px;
+}
+.kartinka {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+.kartex {
+    display: flex;
+}
+.kartinka2 {
+    margin-top: 20px;
+}
+.poloska {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #eaecf0;
+}
